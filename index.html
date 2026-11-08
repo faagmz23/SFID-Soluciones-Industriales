@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SFID Soluciones Industriales: electromecánica, obra civil, soldadura, electrónica y fontanería en Heredia, Costa Rica.">
+  <title>SFID | Soluciones Industriales</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="encabezado" id="arriba">
+    <nav class="navegacion contenedor" aria-label="Navegación principal">
+      <a href="#inicio" class="marca"><img src="img/Logo.png" alt="Logo de SFID" onerror="this.style.display='none'"> <span>SFID <small>Soluciones Industriales</small></span></a>
+      <button class="menu-boton" id="menuBoton" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">☰</button>
+      <div class="menu" id="menu">
+        <a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a>
+        <button id="temaBoton" class="tema-boton" aria-label="Cambiar tema">☾</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="contenedor hero-contenido">
+        <p class="etiqueta">INGENIERÍA • MANTENIMIENTO • INNOVACIÓN</p>
+        <h1>SFID Soluciones Industriales</h1>
+        <p>¡Bienvenido a SFID Soluciones Industriales! Somos una empresa comprometida con la excelencia técnica y la innovación constante. Brindamos soluciones integrales para hogares y empresas.</p>
+        <div class="acciones"><a class="boton" href="#servicios">Conocer servicios</a><a class="boton boton-borde" href="#contacto">Contáctanos</a></div>
+      </div>
+    </section>
+    <section class="seccion contenedor" id="nosotros">
+      <p class="etiqueta">CONÓCENOS</p><h2>Sobre nosotros</h2>
+      <p>SFID Soluciones Industriales nació del espíritu emprendedor y la determinación de transformar la experiencia técnica en soluciones reales. Desde nuestros inicios hemos desarrollado proyectos residenciales y empresariales en electromecánica, fontanería, soldadura, electrónica y obra civil, destacándonos por la calidad, el cumplimiento y la atención personalizada.</p>
+      <div class="tarjetas tres">
+        <article class="tarjeta"><h3>Misión</h3><p>Proveer servicios integrales de ingeniería, mantenimiento y soporte técnico, con soluciones eficientes, seguras y de alta calidad para clientes residenciales y corporativos.</p></article>
+        <article class="tarjeta"><h3>Visión</h3><p>Ser una empresa referente en el sector técnico e industrial, reconocida por su versatilidad, calidad operativa e innovación, construyendo relaciones de confianza a largo plazo.</p></article>
+        <article class="tarjeta"><h3>Valores</h3><p>Calidad, seguridad, responsabilidad, innovación, compromiso y atención personalizada.</p></article>
+      </div>
+    </section>
+    <section class="seccion fondo" id="servicios"><div class="contenedor">
+      <p class="etiqueta">QUÉ HACEMOS</p><h2>Nuestros servicios</h2>
+      <div class="tarjetas servicios">
+        <article class="tarjeta servicio"><img src="img/Electromecanica1.png" alt="Servicio de electromecánica" loading="lazy"><div><h3>Electromecánica</h3><p>Instalación, mantenimiento y soporte de sistemas electromecánicos.</p></div></article>
+        <article class="tarjeta servicio"><img src="img/Civil1.jpeg" alt="Trabajo de obra civil" loading="lazy"><div><h3>Obra civil</h3><p>Remodelaciones y mejoras para espacios residenciales y empresariales.</p></div></article>
+        <article class="tarjeta servicio"><img src="img/SoldaduraMMA3.jpeg" alt="Trabajo de soldadura" loading="lazy"><div><h3>Soldadura especializada</h3><p>Soluciones de soldadura para proyectos técnicos y estructurales.</p></div></article>
+        <article class="tarjeta servicio"><img src="img/Electronica1.jpeg" alt="Servicio de electrónica" loading="lazy"><div><h3>Electrónica</h3><p>Diseño y soluciones electrónicas según las necesidades del proyecto.</p></div></article>
+        <article class="tarjeta servicio"><img src="img/Fontaneria1.jpeg" alt="Servicio de fontanería" loading="lazy"><div><h3>Fontanería</h3><p>Instalaciones y mantenimiento de sistemas de tuberías y agua.</p></div></article>
+        <article class="tarjeta servicio"><img src="img/AiresAcondicionados3.jpeg" alt="Servicio de aire acondicionado" loading="lazy"><div><h3>Aires acondicionados</h3><p>Trabajos relacionados con sistemas de climatización.</p></div></article>
+      </div>
+    </div></section>
+    <section class="seccion contenedor" id="galeria">
+      <p class="etiqueta">NUESTROS PROYECTOS</p><h2>Galería de trabajos</h2>
+      <div class="carrusel"><button id="anterior" aria-label="Imagen anterior">❮</button><img id="imagenCarrusel" src="img/Civil2.jpeg" alt="Proyecto realizado por SFID"><button id="siguiente" aria-label="Imagen siguiente">❯</button></div>
+      <p id="contadorImagen" class="centrado" aria-live="polite"></p>
+      <div class="miniaturas" id="miniaturas"></div>
+    </section>
+    <section class="seccion fondo" id="contacto"><div class="contenedor">
+      <p class="etiqueta">HABLEMOS</p><h2>Contacto</h2>
+      <div class="contacto-grid">
+        <div><h3>¿Tienes un proyecto en mente?</h3><p>Cuéntanos qué necesitas y con gusto conversamos sobre tu proyecto.</p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/50671699343" target="_blank" rel="noopener noreferrer">+506 7169 9343</a></p>
+          <p><strong>Correo:</strong> <a href="mailto:starling0393@icloud.com">starling0393@icloud.com</a></p>
+          <p><strong>Ubicación:</strong> Heredia, Costa Rica</p>
+          <p><strong>Redes sociales:</strong> <span class="redes" aria-label="Redes sociales próximamente"><span title="Facebook próximamente">f</span><span title="Instagram próximamente">◎</span></span></p>
+        </div>
+        <form id="formulario" class="tarjeta" novalidate>
+          <h3>Envíanos un mensaje</h3>
+          <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" autocomplete="name" required>
+          <label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" autocomplete="email" required>
+          <label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+          <p id="resultado" role="status" aria-live="polite"></p>
+          <button type="submit" class="boton">Preparar mensaje</button>
+          <small>Al enviar, se abrirá tu aplicación de correo con el mensaje preparado.</small>
+        </form>
+      </div>
+    </div></section>
+  </main>
+  <footer><div class="contenedor pie"><p>© <span id="anio"></span> SFID Soluciones Industriales. Todos los derechos reservados.</p><p>Heredia, Costa Rica</p></div></footer>
+  <button id="volverArriba" aria-label="Volver arriba" title="Volver arriba">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
